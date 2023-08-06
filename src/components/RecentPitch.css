@@ -1,0 +1,54 @@
+/* recent pitches section   */
+.pitches-container {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-direction: column;
+  -webkit-box-align: center;
+  position: relative;
+  align-items: flex-start;
+  width: 74%;
+  margin: 5vh auto 15vh;
+}
+.pitches-container .pitches-heading-section {
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+.pitches-container .pitches-heading-section .pitches-heading {
+  font-family: Optima;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(1, 10, 7);
+}
+.pitches-container .pitches-heading-section .pitches-count {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(1, 10, 7);
+}
+.pitches-slide-section {
+  width: 100%;
+}
+
+/* responsive section  */
+@media only screen and (max-width: 480px) {
+  .pitches-container {
+    width: 71%;
+  }
+}

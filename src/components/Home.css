@@ -1,0 +1,77 @@
+/* upcoming-event  */
+.upcoming-event-heading {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-direction: column;
+  -webkit-box-align: center;
+  position: relative;
+  align-items: flex-start;
+  margin: 10vh auto 2vh;
+  width: 74%;
+}
+.upcoming-event-heading .upcoming-event {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 0px;
+  width: 100%;
+}
+.upcoming-event-heading .upcoming-event div {
+  font-family: Optima;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(1, 10, 7);
+}
+.upcoming-event-heading .upcoming-event h1 div {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(1, 10, 7);
+}
+
+/* responsive section  */
+@media only screen and (max-width: 767px) {
+  .benefit-container {
+    margin: 3% 20px 80px;
+    padding: 65px;
+  }
+  .benefit-container .benefit-section-1 .img-section {
+    height: 275px;
+    width: 275px;
+  }
+  .benefit-container .benefit-section-2 {
+    padding: 12px;
+    left: 6%;
+    top: 18%;
+  }
+  .benefit-container .benefit-section-2 p {
+    font-size: 13px;
+  }
+  .benefit-container .benefit-section-3 {
+    width: 35%;
+    padding: 12px;
+    left: 55%;
+    top: 13%;
+  }
+  .benefit-container .benefit-section-3 p {
+    font-size: 13px;
+  }
+  .benefit-container .benefit-section-4 {
+    padding: 12px;
+    left: 65%;
+    top: 35%;
+  }
+  .benefit-container .benefit-section-4 p {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,48 @@
+.main-div {
+  flex: 2 1 0%;
+  margin-top: 3%;
+
+  overflow: hidden;
+}
+
+.div1,
+.div2,
+.div3 {
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 25%;
+}
+.div2 {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 4%;
+  margin-left: 14%;
+  margin-right: -21%;
+}
+.div3 {
+  margin: 0;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 4%;
+}
+.lin2img4 {
+  width: 9%;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.temp-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.temp-div3 {
+  height: 75%;
+}
+.temp-img {
+  position: absolute;
+  width: 5%;
+}
+.div3 > img {
+  height: 75%;
+}
